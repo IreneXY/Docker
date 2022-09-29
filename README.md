@@ -23,7 +23,7 @@
     
     此时，工作目录下有两个文件 hello.sh和Dockerfile:
     
-    ![Screen Shot 2022-09-29 at 12.16.36 PM.png](Screen_Shot_2022-09-29_at_12.16.36_PM.png)
+    ![Screen Shot 2022-09-29 at 12.16.36 PM.png](images/ls.png)
     
 5. Terminal里的工作目录下输入命令行Build image:
     
@@ -39,7 +39,7 @@
     
     运行成功后看到屏幕上输出：
     
-    ![Screen Shot 2022-09-29 at 12.23.49 PM.png](Screen_Shot_2022-09-29_at_12.23.49_PM.png)
+    ![Screen Shot 2022-09-29 at 12.23.49 PM.png](images/result.png)
     
     查看本地所有的容器：`docker ps -a`
     
