@@ -47,5 +47,18 @@
     
     删除镜像：`docker rmi [镜像名]`
     
-6. 如果Dockerfile内容变了或者hello.sh内容变了，需要先删除容器，再删除镜像，重新build 一个镜像出来。
-7. 了解更多： [https://www.jianshu.com/p/6cadb5b722ac](https://www.jianshu.com/p/6cadb5b722ac)
+7. 如果Dockerfile内容变了或者hello.sh内容变了，需要先删除容器，再删除镜像，重新build 一个镜像出来。
+8. 了解更多： [https://www.jianshu.com/p/6cadb5b722ac](https://www.jianshu.com/p/6cadb5b722ac)
+9. 有用的命令：
+   
+* `docker ps` //查看系统中运行的docker容器
+* `docker kill [container]` //删除docker容器
+* `docker stop [container]` //停止正在运行的docker容器
+* `docker attach/exec [container]` //进入容器
+* `docker run` //运行镜像，生成容器
+* `docker images` //查看系统中存在的docker镜像
+* `docker rmi [image]` //删除镜像
+* `docker build` //生成镜像
+* `docker pull` //拉取镜像
+* `docker push` //上传镜像 
+* `docker search` //搜索镜像
